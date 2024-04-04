@@ -1,0 +1,68 @@
+
+.container {
+    height: 500px;
+    width: 350px;
+    border: solid black 1px;
+    border-radius:  10px;
+    padding: 4px;
+    margin: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 12px;
+    padding-left: 12px;
+    background-color: #A9A9A9;
+
+}
+.cabecalho {
+    height: auto;
+    width: 100%;
+    display: flex;
+    padding: 10px;
+}
+.cabecalho div {
+    
+}
+img{
+    margin-right: 10px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.conteudo p.nome{
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 0px;
+    text-align: left;
+}
+
+.conteudo .sub-conteudo p{
+    margin: 0px;
+    padding: 0px;
+    font-size: 12px;
+    margin-left: 0px;
+    text-align: left;
+    
+}
+nav.navegacao {
+    padding: 0;
+    text-align: left;
+    position: relative;
+}
+nav.navegacao ul{
+    list-style: none;
+    position: absolute;
+    left: 0;
+    margin-left: -12px;
+    
+}
+ul li {
+    text-align: left;
+    padding: 15px;
+}
+
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+
+}
